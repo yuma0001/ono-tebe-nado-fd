@@ -8,12 +8,12 @@ header {
   align-items: center;
 }
 .menu {
-  margin-left: 26.52px;
+  margin-left: 26.70px;
 }
 
 .header__link {
   font-size: 18px;
-  line-height: 21.13px;
+  line-height: 21.10px;
   text-underline-offset: 3px;
 }
 .header__links-list-item {
@@ -107,7 +107,7 @@ header {
   display: flex;
   font-weight: normal;
   text-transform: uppercase;
-  word-spacing: 17.7px;
+  word-spacing: 17.6px;
   font-size: 22px;
   line-height: 28px;
   color: white;
@@ -119,14 +119,6 @@ header {
   z-index: 4;
 }
 .bet-button {
-  text-transform: uppercase;
-  background-color: transparent;
-  background-repeat: no-repeat;
-  border: 1px solid white;
-  font-size: 22px;
-  padding: 12px 32px 11px 31px;
-  margin-right: 50px;
-  margin-bottom: 51px;
   cursor: pointer;
   color: white;
   position: relative;
@@ -135,6 +127,14 @@ header {
   font-family: Raleway, sans-serif;
   font-weight: normal;
   transition: background 0.3s ease, color 0.3s ease;
+    text-transform: uppercase;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: 1px solid white;
+  font-size: 22px;
+  padding: 12px 32px 11px 31px;
+  margin-right: 50px;
+  margin-bottom: 51px;
 }
 .bet-button:hover {
   background: white;
@@ -263,7 +263,7 @@ header {
    Подвал (footer)
    ======================= */
 footer {
-  padding: 177px 48px 88px 50px;
+  padding: 176px 48px 88px 50px;
   display: flex;
   justify-content: space-between;
 }

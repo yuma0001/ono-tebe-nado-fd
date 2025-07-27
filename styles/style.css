@@ -16,6 +16,10 @@ header {
   line-height: 21.10px;
   text-underline-offset: 3px;
 }
+
+.header__link_active {
+  text-decoration: none;
+}
 .header__links-list-item {
   list-style-type: circle;
   margin-top: 16px;
@@ -30,18 +34,28 @@ header {
   text-decoration: none;
   list-style-type: none;
 }
-/* Контактная информация */
-.address {
-  font-size: 18px;
-  line-height: 24.3px;
-  text-underline-offset: 3.5px;
+.header__logo-image {
+  width: 148px;
+  height: 105px;
+
 }
+
+/* Контактная информация */
 .header__address {
   font-style: normal;
   margin-top: 19px;
   margin-right: 54px;
   margin-bottom: 4px;
   width: 210px;
+  font-size: 18px;
+  line-height: 24.3px;
+  text-underline-offset: 3.5px;
+}
+
+.address__link {
+  font-size: 18px;
+  line-height: 24.3px;
+  text-underline-offset: 3.5px;
 }
 
 /* =======================
@@ -287,11 +301,15 @@ footer {
 .footer__menu-list-item {
   list-style-type: none;
   font-size: 18px;
+}
+
+.footer__menu-link {
   text-decoration: underline;
   text-underline-offset: 4.2px;
 }
 .footer__address {
   font-size: 18px;
+  line-height: 24.3px;
   text-underline-offset: 4.2px;
   display: flex;
   flex-direction: column;
@@ -301,5 +319,4 @@ footer {
 }
 .footer__menu-link_active {
   text-decoration: none;
-  list-style-type: none;
 }
